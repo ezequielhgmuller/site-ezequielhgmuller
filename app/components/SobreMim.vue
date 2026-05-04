@@ -1,32 +1,35 @@
 <template>
-  <div class="flex flex-col items-center mt-8 px-4 sm:px-6 md:px-10">
+  <div class="flex flex-col items-center mt-4 px-4 sm:px-6 md:px-10">
     <!-- sobre mim -->
+    <h1 class="text-[22px] font-medium md:text-2xl mb-4">Sobre mim</h1>
+
     <div
       class="text-center border-gray-400 dark:border-gray-700 border-2 rounded-2xl shadow-sm backdrop-blur-sm w-full max-w-3xl p-6"
     >
-      <h1 class="text-[22px] font-medium md:text-2xl mb-4">Sobre mim</h1>
       <p class="leading-relaxed">
         Olá! Sou
         <span class="font-bold text-secondary"
-          >Sou Desenvolvedor Full Stack com prioridade em back-end</span
-        >, atuando no desenvolvimento de sistemas web utilizando Java no
-        back-end e Vue.js no front-end. Tenho experiência profissional em
-        sistemas legados, trabalhando com implementação e manutenção de
-        funcionalidades, integração entre camadas, construção de APIs REST,
-        criação de consultas SQL e evolução de sistemas seguindo padrões
-        arquiteturais já estabelecidos.
+          >Sou Desenvolvedor Full Stack com foco em Backend.
+        </span>
+        Formado como Técnico em Informática pelo Instituto Federal do Rio Grande
+        do Sul (IFRS) e atualmente graduando em Bacharelado em Ciência da
+        Computação pela Universidade Regional Integrada do Alto Uruguai e das
+        Missões (URI). Tenho <b> experiência no desenvolvimento de sistemas</b>,
+        atuando com <b>APIs REST</b>, <b>bancos de dados SQL</b>, criação de
+        <b
+          >interfaces intuitivas e manutenção/evolução de software seguindo
+          padrões arquiteturais</b
+        >.
+
         <span class="font-bold"
-          >Atualmente, estou aprofundando meus conhecimentos em Java com foco em
-          Spring Boot e arquitetura de back-end moderno.
+          >Atualmente, estou aprofundando meus conhecimentos em Java, com foco
+          em Spring Boot e arquitetura moderna de back-end.
         </span>
       </p>
     </div>
+
     <!-- habilidades -->
     <div class="mt-10 w-full max-w-5xl">
-      <h1 class="text-center text-[22px] font-medium md:text-2xl mb-6">
-        Tecnologias
-      </h1>
-
       <div
         class="grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 gap-3 items-center justify-center"
       >
@@ -55,13 +58,11 @@
 const habilidades = [
   { label: 'Git', src: '/stack/git.svg' },
   { label: 'Java', src: '/stack/java.svg' },
-  { label: 'PostgreSQL', src: '/stack/postgresql.svg' },
-  { label: 'MySQL', src: '/stack/mysql.png' },
   { label: 'JavaScript', src: '/stack/javascript.svg' },
-  { label: 'TypeScript', src: '/stack/typescript.svg' },
   { label: 'Vue.js', src: '/stack/vue.svg' },
   { label: 'Quasar Framework', src: '/stack/quasar.png' },
-  { label: 'TailwindCSS', src: '/stack/tailwindcss.svg' },
+  { label: 'PostgreSQL', src: '/stack/postgresql.svg' },
+  { label: 'MySQL', src: '/stack/mysql.png' },
 ]
 </script>
 <style scoped>

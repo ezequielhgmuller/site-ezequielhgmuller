@@ -14,7 +14,7 @@ Nesse site eu apresento minha trajetória profissional como Desenvolvedor FullSt
 1. Clone o repositório:
 
 ```bash
-git clone https://github.com/ezequielmuller/site-ezequielhgmuller.git
+git clone https://github.com/ezequielhgmuller/site-ezequielhgmuller.git
 cd site-ezequielhgmuller
 ```
 

@@ -17,7 +17,7 @@
         <UButton
           color="neutral"
           variant="ghost"
-          to="https://github.com/ezequielmuller"
+          to="https://github.com/ezequielhgmuller"
           target="_blank"
           icon="i-simple-icons-github"
           aria-label="GitHub"

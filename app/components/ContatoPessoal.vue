@@ -17,7 +17,7 @@
         <div class="flex flex-col gap-6">
           <!-- github-->
           <a
-            href="https://www.linkedin.com/in/ezequielhgmuller"
+            href="https://github.com/ezequielhgmuller"
             target="_blank"
             rel="noopener noreferrer"
             class="flex items-center gap-4 transition-all duration-300 hover:translate-x-2 cursor-pointer group"
@@ -31,7 +31,7 @@
               <p
                 class="font-semibold text-gray-900 dark:text-white group-hover:text-green-600 transition-colors"
               >
-                ezequielmuller
+                ezequielhgmuller
               </p>
             </div>
             <UIcon
@@ -95,18 +95,6 @@
             @click="copiarEmail"
             class="flex items-center gap-4 transition-all duration-300 hover:translate-x-2 cursor-pointer group"
           >
-            <UIcon
-              name="mdi:gmail"
-              class="size-6 text-red-500 group-hover:scale-110 transition-transform"
-            />
-            <div class="flex-1">
-              <p class="text-sm font-medium text-gray-500">Email</p>
-              <p
-                class="font-semibold text-gray-900 dark:text-white group-hover:text-red-500 transition-colors"
-              >
-                zikimuller017@gmail.com
-              </p>
-            </div>
             <div class="flex items-center gap-2">
               <UIcon
                 v-if="emailCopiado"
